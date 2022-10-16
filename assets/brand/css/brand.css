@@ -1,10 +1,35 @@
-.powered > a {
-    color: #ffffff;
-    text-decoration: none;
+.site-logo {
+    padding-bottom: 19px;
 }
 
-.powered > a:hover {
-    color: #3C4A55;
+.header-navigation a, .header-navigation li a {
+    padding: 0px 14px;
+}
+
+.header-navigation a:hover, .header-navigation li.current a {
+    color: #ffffff;
+    background: #231f20;
+}
+
+.ab-cirle-green {
+    right: 8%;
+}
+
+.color-panel {
+    top: 20px;
+}
+
+.color-panel .icon-color {
+    background: #c9c9c9 url(../img/icon-color.png) center no-repeat;
+}
+
+.color-panel .icon-color:hover {
+    background-color: #3d3d3d;
+}
+
+.color-panel .icon-color-close {
+    display: none;
+    background: #3d3d3d url(../img/icon-color-close.png) center no-repeat;
 }
 
 .message-block {
@@ -22,6 +47,15 @@
     text-decoration: none;
 }
 
+
+.facts-block {
+    background: #fff url(../img/facts.jpg) no-repeat fixed;
+}
+
+.facts-block h2 {
+    background: rgba(0,0,0,0.5);
+}
+
 .pre-footer a {
     color: #327fa5;
 }
@@ -29,4 +63,13 @@
 .pre-footer dl.f-twitter dt i {
     color: #327fa5;
     font-size: 20px;
+}
+
+.powered > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.powered > a:hover {
+    color: #3C4A55;
 }
