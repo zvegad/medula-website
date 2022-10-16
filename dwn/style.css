@@ -1,0 +1,70 @@
+/* General Stylesheet */
+body {
+    font-family: "Roboto", sans-serif;   
+}
+
+a[href]:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+/* Bootstrap Container */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* Banner */
+.banner {
+/*    background: url(../_start/img-new/head_bg.jpg); */
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 70px 0 40px;
+    margin-top: 0px;
+}
+
+.product-logo {
+    margin: 10px;
+    
+}
+
+.product-logo-neg {
+    margin: 10px;
+    padding: 10px;
+    background: #000;
+    
+}
+
+.banner .banner-title-main {
+	font-size: 38px;
+	font-weight: 100;
+	color: #3c4a55;
+    text-transform: uppercase;
+    margin: 40px 0 40px;
+}
+
+.banner .banner-title-bold {
+    font-weight: 500;
+}
+
+.banner .banner-title-paragraph {
+    font-size: 18px;
+    color: #707f8b;
+    margin-bottom: 40px;
+}
+
+.banner .banner-quote {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4;
+    background: #eb6d6d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 22px;
+    text-align: center;    
+}
