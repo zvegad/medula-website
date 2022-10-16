@@ -184,7 +184,7 @@ var Layout = function () {
         // handle theme colors
         var setColor = function (color) {
             $('#style-color').attr("href", "../../assets/onepage/css/themes/" + color + ".css");
-            $('.site-logo img').attr("src", "../../assets/onepage/img/logo/" + color + ".png");
+            // $('.site-logo img').attr("src", "../../assets/onepage/img/logo/" + color + ".png");
         }
 
         $('.icon-color', panel).click(function () {

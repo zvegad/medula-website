@@ -1,0 +1,14 @@
+.powered > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.powered > a:hover {
+    color: #3C4A55;
+}
+
+.message-block {
+    background: #292F34 url(../img/adan-creation-min.jpg) no-repeat fixed;
+    /* opacity: 0.30; */
+    /* background-position: right 45% bottom 45%; */
+}
