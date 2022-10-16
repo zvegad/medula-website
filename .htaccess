@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} !^(GET|POST)
+RewriteRule .* - [R=405,L]
+
+#-- AliasMatch ^/ap/ /home/dasids/webapps/medula/aviso.html
