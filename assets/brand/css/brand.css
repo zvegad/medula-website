@@ -12,3 +12,21 @@
     /* opacity: 0.30; */
     /* background-position: right 45% bottom 45%; */
 }
+
+.choose-us-block h4 a {
+    color: #327fa5;
+}
+
+.choose-us-block .panel-default .accordion-toggle, .choose-us-block .panel-default .accordion-toggle:focus, .choose-us-block .panel-default .accordion-toggle:hover, .choose-us-block .panel-default .accordion-toggle:active {
+    color: #327fa5;
+    text-decoration: none;
+}
+
+.pre-footer a {
+    color: #327fa5;
+}
+
+.pre-footer dl.f-twitter dt i {
+    color: #327fa5;
+    font-size: 20px;
+}
