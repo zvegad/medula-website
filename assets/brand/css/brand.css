@@ -13,6 +13,14 @@
     }
 } */
 
+.site-logo {
+    padding: 10px 0px;
+}
+
+.site-logo img {
+    width: 280px;
+}
+
 .color-med {
     color: #231f20;
 }
