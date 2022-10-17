@@ -118,7 +118,7 @@
 	  letter-spacing: 2px !important;
 	}
 }
-@ (max-width: 768px) {
+@media (max-width: 768px) {
 	.services-block {
 	  padding-bottom: 20px;
 	}
@@ -131,17 +131,17 @@
 	  margin-bottom: 33px;
 	}
 	.ab-cirlce {
-	  width: 100px;
-	  height: 100px;
+	  width: 70px;
+	  height: 70px;
 	  padding-top: 15px;
 	}
 	.ab-cirlce i {
-	  font-size: 33px;
-	  line-height: 33px;
+	  font-size: 20px;
+	  line-height: 20px;
 	}
 	.ab-cirlce strong {
 	  padding-top: 5px;
-	  font-size: 16px;
+	  font-size: 10px;
 	  line-height: 1;
 	}
 	.ab-cirle-blue {
@@ -153,7 +153,7 @@
 	  left: 37%;
 	}
 	.ab-cirle-green {
-	  bottom: 34%;
+	  bottom: 26%;
 	  right: 6%;
 	}
 
@@ -221,7 +221,7 @@
 	  z-index: 3;
 	}
 	.ab-cirle-red {
-	  bottom: 36px;
+	  bottom: 56px;
 	}
 
 	.slider-item-1 .promo-like {

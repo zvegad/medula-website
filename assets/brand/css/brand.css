@@ -1,11 +1,11 @@
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .site-logo {
         padding-bottom: 2px;
         height: 60px;
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
     .site-logo {
         padding-bottom: 19px;
     }
