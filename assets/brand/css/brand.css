@@ -11,6 +11,10 @@
     }
 }
 
+.color-med {
+    color: #231f20;
+}
+
 .header-navigation a, .header-navigation li a {
     padding: 0px 14px;
 }
@@ -18,6 +22,29 @@
 .header-navigation a:hover, .header-navigation li.current a {
     color: #ffffff;
     background: #231f20;
+}
+
+.carousel-slider .carousel-item-one {
+    background: url(../img/slider/slide1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-two {
+    background: url(../img/slider/slide2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-three {
+    background: url(../img/slider/slide3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-title-v2 {
+    background: rgba(0,0,0,0.5);
+    padding: 0 40px;
 }
 
 .ab-cirle-green {
@@ -47,14 +74,14 @@
 .header .mobi-toggler:hover {
     background-image: url(../img/toggler.png);
 }
-  
+
 .choose-us-block .panel-default .accordion-toggle:before {
     background-image: url(../img/toggle-icons.png);
 }
 .choose-us-block .panel-default .collapsed:before {
     background: #495764 url(../img/toggle-icons.png) no-repeat 6px -148px;
 }
-  
+
 .message-block {
     background: #292F34 url(../img/adan-creation-min.jpg) no-repeat fixed;
     /* opacity: 0.30; */
