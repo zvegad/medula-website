@@ -41,6 +41,20 @@
     background: #3d3d3d url(../img/icon-color-close.png) center no-repeat;
 }
 
+.header .mobi-toggler {
+    background: url(../img/toggler.png) no-repeat 6px 8px;
+}
+.header .mobi-toggler:hover {
+    background: #e34f00 url(../img/toggler.png) no-repeat 6px -28px;
+}
+  
+.choose-us-block .panel-default .accordion-toggle:before {
+    background: #e54a1a url(../img/toggle-icons.png) no-repeat 6px 10px;
+}
+.choose-us-block .panel-default .collapsed:before {
+    background: #495764 url(../img/toggle-icons.png) no-repeat 6px -148px;
+}
+  
 .message-block {
     background: #292F34 url(../img/adan-creation-min.jpg) no-repeat fixed;
     /* opacity: 0.30; */
