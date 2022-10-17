@@ -47,6 +47,12 @@
     padding: 0 40px;
 }
 
+@media (min-width: 768px) {
+    .carousel-slider .carousel-title-v2 {
+        padding: 0 80px;
+    }
+}
+
 .ab-cirle-green {
     right: 8%;
 }
