@@ -32,6 +32,7 @@ var Layout = function () {
     var handleNavItemCurrent = function () {
         $(".header-navigation").onePageNav({
             currentClass: "current",
+            filter: ':not(.external)',
             scrollThreshold: 0
         });
     }
@@ -198,10 +199,13 @@ var Layout = function () {
         });
 
         $('li', panel).click(function () {
-            var color = $(this).attr("data-style");
-            setColor(color);
-            $('.inline li', panel).removeClass("current");
-            $(this).addClass("current");
+            // console.log( $(this) );
+            if (! $(this).hasClass('dont-mark-current') ) {
+                var color = $(this).attr("data-style");
+                setColor(color);
+                $('.inline li', panel).removeClass("current");
+                $(this).addClass("current");    
+            }
         });
 
         $('.color-panel .menu-pos').change(function(){

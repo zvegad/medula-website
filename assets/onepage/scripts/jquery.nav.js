@@ -199,11 +199,13 @@
 		},
 
 		scrollTo: function(target, callback) {
-			var offset = $(target).offset().top;
-			offset = offset - 58;//$('.header').outerHeight()
-			$('html, body').animate({
-				scrollTop: offset
-			}, this.config.scrollSpeed, this.config.easing, callback);
+			if (target != '#') {
+				var offset = $(target).offset().top;
+				offset = offset - 58;//$('.header').outerHeight()
+				$('html, body').animate({
+					scrollTop: offset
+				}, this.config.scrollSpeed, this.config.easing, callback);	
+			}
 		},
 
 		unbindInterval: function() {
