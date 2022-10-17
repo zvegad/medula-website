@@ -118,7 +118,7 @@
 	  letter-spacing: 2px !important;
 	}
 }
-@media (max-width: 768px) {
+@ (max-width: 768px) {
 	.services-block {
 	  padding-bottom: 20px;
 	}

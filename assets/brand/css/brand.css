@@ -1,5 +1,14 @@
-.site-logo {
-    padding-bottom: 19px;
+@media (max-width: 760px) {
+    .site-logo {
+        padding-bottom: 2px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 760px) {
+    .site-logo {
+        padding-bottom: 19px;
+    }
 }
 
 .header-navigation a, .header-navigation li a {
@@ -72,4 +81,57 @@
 
 .powered > a:hover {
     color: #3C4A55;
+}
+
+::after, ::before {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+::selection {
+
+    color: #fff;
+    background: #3C4A55;
+
+}
+::selection {
+
+    color: #fff;
+    background: #3C4A55;
+
+}
+::selection {
+
+    color: #fff;
+    background: #e6400c;
+
+}
+::selection {
+
+    color: #fff;
+    background: #e6400c;
+
+}
+elemento {
+
+    display: block;
+    padding-right: 17px;
+
+}
+.modal-open .modal {
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.fade.in {
+
+    opacity: 1;
+
+}
+.modal {
+    top: 10px;
+    z-index: 10000;
 }
