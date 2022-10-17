@@ -45,11 +45,11 @@
     background: url(../img/toggler.png) no-repeat 6px 8px;
 }
 .header .mobi-toggler:hover {
-    background: #e34f00 url(../img/toggler.png) no-repeat 6px -28px;
+    background-image: url(../img/toggler.png);
 }
   
 .choose-us-block .panel-default .accordion-toggle:before {
-    background: #e54a1a url(../img/toggle-icons.png) no-repeat 6px 10px;
+    background-image: url(../img/toggle-icons.png);
 }
 .choose-us-block .panel-default .collapsed:before {
     background: #495764 url(../img/toggle-icons.png) no-repeat 6px -148px;
