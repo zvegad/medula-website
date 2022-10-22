@@ -24,7 +24,8 @@ var Layout = function () {
     var handleScrolling = function () {
         $(".scroll").on("click", function(event) {
             event.preventDefault();//the default action of the event will not be triggered
-            $("html, body").animate({scrollTop:($("#"+this.href.split("#")[1]).offset().top)}, 600);
+            // $("html, body").animate({scrollTop:($("#"+this.href.split("#")[1]).offset().top)}, 600);
+            $("html, body").animate({scrollTop: 0}, 600);
         });
     }
 
