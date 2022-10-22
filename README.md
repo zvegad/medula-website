@@ -1,2 +1,0 @@
-# medula-website
-MEDULA SITE FIRST RELEASE
